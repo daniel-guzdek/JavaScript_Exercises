@@ -1,0 +1,14 @@
+{
+  "name": "javascript_exercises",
+  "version": "1.0.0",
+  "description": "JavaScript exerices",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel L. Guzdek",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
