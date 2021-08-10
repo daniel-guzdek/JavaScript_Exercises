@@ -1,0 +1,14 @@
+The following function is to display the 'l' and 'v' values in the console. However, the value 'l' is not global in scope like the variable 'var'. How to fix it?
+
+let fn = function() {
+
+  {
+    let l = 'let';
+    var v = 'var';
+  }
+
+  console.log(l);
+  console.log(v);
+}
+
+fn();
